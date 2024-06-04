@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explorando la diversidad en Cundinamarca y Boyacá</title>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!--1. Página de Inicio:
+Crear una página principal que incluya información general sobre la biodiversidad en Cundinamarca y Boyacá.
+• Utilizar etiquetas HTML para estructurar la información y darle estilo con CSS.
+• Agregar interactividad con JavaScript, como botones para navegar a secciones específicas.
+2. Mapa de Regiones:
+• Implementar un mapa interactivo de Cundinamarca y Boyacá con marcadores que representen diferentes regiones 
+biodiversas.
+• Cada marcador debe proporcionar información básica sobre la biodiversidad en esa región.
+• Personalizar el estilo del mapa utilizando CS-->
+
+  <body>
+    <header>
+      <h1 class="tituloPrincipal">Biodiversidad en Cundinamarca y Boyacá.</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="avistamientos.html">Avistamientos</a></li>
+          <!--<li><a href="#boyaca">Boyaca</a></li>-->
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="mapa.html">Mapa</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="region-container cundinamarca" id="cundinamarca">
+          <h2>Cundinamarca</h2>
+          <div class="contenidoInfo">
+            <img src="img/cundinamarca.jpg" class="imagenCundinamarca" />
+
+            <p class="info">
+              Cundinamarca es una región de Colombia conocida por su rica
+              biodiversidad, que incluye una variedad de ecosistemas desde los
+              Andes hasta las llanuras del Orinoco. Esta diversidad biológica se
+              manifiesta en la presencia de numerosas especies de flora y fauna,
+              algunas de las cuales son endémicas de la región.<br />
+              Los esfuerzos de conservación son fundamentales para proteger
+              estos recursos naturales únicos, y existen varias iniciativas y
+              parques naturales dedicados a este fin. La biodiversidad de
+              Cundinamarca no solo es vital para el equilibrio ecológico, sino
+              que también es una fuente de orgullo y un elemento clave para el
+              turismo y la educación ambiental en la región.
+            </p>
+          </div>
+          <button onclick="masInfoCundi()">Mas Informacion</button>
+          <button onclick="menosInfoCundi()">Menos Informacion</button>
+          <div id="masInfoCundinamarca">
+            <h3 id="flora-cundinamarca"></h3>
+
+            <p id="info-cundinamarca"></p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="region-container boyaca" id="boyaca">
+          <h2>Boyacá</h2>
+          <div class="contenidoInfo">
+            <p class="info">
+              Boyacá es un departamento de Colombia que se destaca por su rica
+              biodiversidad. Según datos recientes, Boyacá alberga más de 11,731
+              especies observadas, lo que representa aproximadamente el 15% de
+              las especies registradas en todo el país. De estas, más de 1,036
+              son endémicas, lo que significa que no se encuentran en ningún
+              otro lugar del mundo. <br />
+              Este departamento no solo es vital para la conservación de la
+              flora y fauna colombiana, sino que también es un ejemplo del
+              compromiso con la gestión del conocimiento sobre la biodiversidad,
+              apoyando la construcción de políticas ambientales y la toma de
+              decisiones a nivel regional y nacional.
+            </p>
+            <img src="img/aguila crestada.jpg" class="imagenBoyaca" />
+          </div>
+          <button onclick="masInfoBoyaca()">Mas Informacion</button>
+          <button onclick="menosInfoBoyaca()">Menos Informacion</button>
+
+          <div id="masInfoBoyaca">
+            <h3 id="flora-boyaca"></h3>
+            <p id="info-boyaca"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p class="copyright">
+        Desarrollado por Ahinar Fernando Gonzalez<br />AhinarDev<br />Copyright
+        &copy 2024
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

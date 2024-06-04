@@ -1,0 +1,86 @@
+[
+    {
+        "Id": 1,
+        "Tipo": "Planta",
+        "Nombre comun": "Frailejón de Arcabuco",
+        "Nombre cientifico": "Espeletia garciae",
+        "Habitat o  lugar de avistamiento": "Combita, Boyaca",
+        "Latitud": 5.742017,
+        "Longitud": -73.39473,
+        "Altitud": 3200,
+        "Fecha avistamiento": "08-07-2017",
+        "imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/8925202/large.jpg"
+    },
+    {
+        "Id": 2,
+        "Tipo": "Insecto",
+        "Nombre comun": "Avispa Papelera Versicolor",
+        "Nombre cientifico": " Polistes versicolor",
+        "Habitat o  lugar de avistamiento": "Nocaima",
+        "Latitud": 5.069457,
+        "Longitud": -74.380305,
+        "Altitud": 1100,
+        "Fecha avistamiento": "04-03-2022",
+        "imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/181574124/large.jpeg"
+    },
+    {
+        "Id": 3,
+        "Tipo": "Reptil",
+        "Nombre comun": "Serpiente Sabanera",
+        "Nombre cientifico": "Atractus crassicaudatus",
+        "Habitat o  lugar de avistamiento": "Chía, Cundinamarca",
+        "Latitud": 4.848432,
+        "Longitud": -74.001879,
+        "Altitud": 2900,
+        "Fecha avistamiento": "11-03-2022",
+        "imagen": "https://static.inaturalist.org/photos/215474301/large.jpeg"
+    },
+    {
+        "Id": 4,
+        "Tipo": "Ave",
+        "Nombre comun": "Jilguerito Dominico",
+        "Nombre cientifico": "Spinus psaltria ",
+        "Habitat o  lugar de avistamiento": "Bojacá, Cundinamarca",
+        "Latitud": 4.717666,
+        "Longitud": -74.324827,
+        "Altitud": 2600,
+        "Fecha avistamiento": "26-12-2013",
+        "imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/172905782/medium.jpg"
+    },
+    {
+        "Id": 5,
+        "Tipo": "Mamifero",
+        "Nombre comun": "Perezoso de Tres Dedos",
+        "Nombre cientifico": "Bradypus variegatusGrado de investigación",
+        "Habitat o  lugar de avistamiento": "Sasaima, Cundinamarca",
+        "Latitud": 4.96385,
+        "Longitud": -74.434393,
+        "Altitud": 1200,
+        "Fecha avistamiento": "29-09-2012",
+        "imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/263743485/medium.jpg"
+    },
+    {
+        "Id": 6,
+        "Tipo": "planta",
+        "Nombre comun": "Frailejón de Tunja",
+        "Nombre cientifico": "Espeletia tunjana",
+        "Habitat o  lugar de avistamiento": " Floresta, Boyaca",
+        "Latitud": 5.808085,
+        "Longitud": -72.950009,
+        "Altitud": 3100,
+        "Fecha avistamiento": "02-06-2014",
+        "imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/298822446/original.jpeg"
+    },
+    {
+        "Id": 7,
+        "Tipo": "Ave",
+        "Nombre comun": "Garrapatero Pico Liso",
+        "Nombre cientifico": "Crotophaga ani",
+        "Habitat o  lugar de avistamiento": "Puerto Boyacá, Boyacá",
+        "Latitud": 5.974537,
+        "Longitud": -74.552925,
+        "Altitud": 145,
+        "Fecha avistamiento": "27-03-2012",
+        "imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/9707218/large.jpeg"
+    }
+]
