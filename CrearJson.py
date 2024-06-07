@@ -3,7 +3,7 @@ from datetime import datetime
 
 # Leer las especies existentes del archivo JSON
 try:
-    with open('avistamientos.json', 'r', encoding='utf-8') as archivo:
+    with open('avistamientos.json', 'r', ) as archivo:
         especies = json.load(archivo)
 except FileNotFoundError:
     # Si el archivo no existe, inicializar una lista vacía
@@ -52,8 +52,8 @@ while True:
 
 # Escribir la lista completa en el archivo JSON
 try:
-    with open('avistamientos.json', 'w', encoding='utf-8') as archivo:
-        json.dump(especies, archivo, ensure_ascii=False, indent=4)
+    with open('avistamientos.json', 'w', ) as archivo:
+        json.dump(especies, archivo,  indent=4)
 except FileNotFoundError:
     print("Archivo no encontrado")
 except UnicodeDecodeError:
